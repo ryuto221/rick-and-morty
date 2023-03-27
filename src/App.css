@@ -15,7 +15,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 80px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -26,6 +26,35 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.card{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+    
+}
+
+.card2{
+  margin-top: 50px;
+  width: 400px;
+  background-color: #333333;
+  border-radius: 15px;
+  color: white;
+}
+
+.ListaSecundaria{
+  background-color: #636363;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  flex-wrap: wrap;
+  width: 400px;
+}
+
+.imagem{
+  border-radius: 15px;
+  width: 400px;
+  height: 400px;
 }
 
 @keyframes App-logo-spin {
